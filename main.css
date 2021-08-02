@@ -24,8 +24,23 @@ body {
 	margin: 5px 10px 5px 10px;
 }
 
-.hero img {
-	width: auto;
-	height: 50%;
-	overflow: hidden;
+.hero-image {
+	height: 500px;
+	max-width: 100%;
+}
+
+.hero-text {
+	position: absolute;
+	top: 50%;
+	color: white;
+	margin-left: 20px;
+}
+
+.hero-button {
+	background-color: #ff6045;
+}
+
+.about-image {
+	float: right;
+	width: 50%;
 }
